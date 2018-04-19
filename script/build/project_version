@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# Extract version from build.boot
+
+set -eu
+
+VERSION=$(cat VERSION)
+
+echo $VERSION

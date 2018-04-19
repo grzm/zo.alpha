@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Returns a formatted version string
+
+set -eu
+
+VERSION_TEMPLATE=$(cat script/build/VERSION_TEMPLATE)
+
+VERSION=$(script/build/git_revision)
+
+echo ${VERSION_TEMPLATE/GENERATED_VERSION/$VERSION}

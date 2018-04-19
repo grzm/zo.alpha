@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Tag current commit with Updates release information in README based on version in project.clj
+
+set -eu
+
+VERSION=$(script/build/project_version)
+
+echo $VERSION
+
+git tag -a "$VERSION" -m "$VERSION"
