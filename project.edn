@@ -1,0 +1,5 @@
+{:project     com.grzm/zo.alpha
+ :description "Clojure PostgreSQL client"
+ :url         "https://github.com/grzm/zo.alpha"
+ :scm         {:url "https://github.com/grzm/zo.alpha"}
+ :license     {"MIT" "https://opensource.org/licenses/MIT"}}

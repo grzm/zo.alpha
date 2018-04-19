@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -eu
+
+clj -R:bench::test -C:bench::test -m net.zopg.zo.alpha.bench '{:type :quick}'

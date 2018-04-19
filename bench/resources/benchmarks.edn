@@ -1,0 +1,2 @@
+{:benchmarks
+ [net.zopg.zo.alpha.bench.connection/connect-and-close]}

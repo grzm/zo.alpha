@@ -1,0 +1,26 @@
+{:deps {aleph                  {:mvn/version "0.4.3"}
+        automat                {:mvn/version "0.2.4"}
+        byte-streams           {:mvn/version "0.2.3"}
+        gloss                  {:mvn/version "0.2.6"}
+        org.clojure/core.async {:mvn/version "0.3.465"}
+        org.slf4j/slf4j-api    {:mvn/version "1.7.25"}}
+
+ :paths ["resources" "src/java" "src/clj"]
+
+ :aliases {:bench
+           {:extra-deps  {jmh-clojure {:mvn/version "0.2.1"}}
+            :extra-paths ["bench/src" "bench/resources" "classes"]}
+
+           :repl
+           {:extra-deps {org.clojure/java.jdbc     {:mvn/version "0.7.5"}
+                         org.postgresql/postgresql {:mvn/version "42.2.1"}
+                         thheller/shadow-pgsql     {:mvn/version "0.11.0"}
+                         cheshire {mvn/version "5.8.0"}}}
+
+           :test
+           {:extra-paths ["test/src" "test/resources"]
+            :extra-deps  {com.grzm/pique.alpha      {:mvn/version "0.1.6"}
+                          com.grzm/tespresso.alpha  {:mvn/version "0.1.11"}
+                          environ                   {:mvn/version "1.1.0"}
+                          org.clojure/test.check    {:mvn/version "0.10.0-alpha2"}
+                          org.clojure/tools.logging {:mvn/version "0.4.0"}}}}}
