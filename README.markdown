@@ -175,3 +175,14 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+Thank you to [Yourkit](https://www.yourkit.com/) for graciously providing
+licenses of [YourKit Java Profiler][] for Zō development. YourKit
+supports open source projects with innovative and intelligent tools
+for monitoring and profiling Java.
+
+![YourKit](https://www.yourkit.com/images/yklogo.png)
+
+[YourKit Java Profiler]: https://www.yourkit.com/java/profiler/
